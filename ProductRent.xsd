@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.epam.pr.by/products" xmlns:pr="http://www.epam.pr.by/products">
+		
+	<complexType name="ProductType">
+		<sequence>
+			<element name="name" type="string"></element>
+			<element name="price_per_day" type="int"></element>
+			<element name="amount" type="int"></element>
+			<element name="rent" type="pr:RentType" minOccurs="0" maxOccurs="unbounded"></element>
+		</sequence>
+		<attribute name="id" type="int" use="required"/>
+	</complexType>
+	
+	<complexType name="RentType">
+		<sequence>
+			<element name="date_from" type="date"></element>
+			<element name="date_to" type="date" nillable = "true"></element>
+		</sequence>
+		<attribute name="id" type="int" use="required"/>
+	</complexType>
+	
+	<element name="products">
+		<complexType>
+			<sequence>
+				<element name="product" type="pr:ProductType" minOccurs="1" maxOccurs="unbounded"></element>
+			</sequence>
+		</complexType>
+	</element>	
+</schema>

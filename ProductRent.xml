@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pr:products xmlns:pr="http://www.epam.pr.by/products" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.epam.pr.by/products products.xsd">
+	
+	<product id="1">
+		<name>Football ball</name>
+		<price_per_day>2</price_per_day>
+		<amount>30</amount>
+		<rent id = "1">
+			<date_from>2017-03-01</date_from>
+			<date_to>2017-03-03</date_to>
+		</rent>
+		<rent id = "9">
+			<date_from>2017-03-03</date_from>
+			<date_to>2017-03-04</date_to>
+		</rent>
+		<rent id = "12">
+			<date_from>2017-03-04</date_from>
+			<date_to>2017-03-04</date_to>
+		</rent>
+		<rent id = "18">
+			<date_from>2017-03-06</date_from>
+			<date_to>2017-03-09</date_to>
+		</rent>
+		<rent id = "27">
+			<date_from>2016-01-01</date_from>
+			<date_to>2017-03-01</date_to>
+		</rent>
+	</product>
+	<product id="2">
+		<name>Basketball ball</name>
+		<price_per_day>2</price_per_day>
+		<amount>20</amount>
+		<rent id = "3">
+			<date_from>2017-02-07</date_from>
+			<date_to>2017-03-01</date_to>
+		</rent>
+		<rent id = "15">
+			<date_from>2017-03-03</date_from>
+			<date_to>2017-03-08</date_to>
+		</rent>
+		<rent id = "22">
+			<date_from>2017-03-11</date_from>
+			<date_to xsi:nil="true"/>
+		</rent>
+	</product>
+	<product id="3">
+		<name>Skiing</name>
+		<price_per_day>6</price_per_day>
+		<amount>8</amount>
+		<rent id = "5">
+			<date_from>2016-03-16</date_from>
+			<date_to>2017-03-01</date_to>
+		</rent>
+		<rent id = "20">
+			<date_from>2017-03-10</date_from>
+			<date_to xsi:nil="true"/>
+		</rent>
+	</product>
+	<product id="4">
+		<name>Skates</name>
+		<price_per_day>7</price_per_day>
+		<amount>7</amount>
+		<rent id = "2">
+			<date_from>2017-03-02</date_from>
+			<date_to>2017-03-06</date_to>
+		</rent>
+		<rent id = "8">
+			<date_from>2017-03-07</date_from>
+			<date_to>2017-03-23</date_to>
+		</rent>
+	</product>
+	<product id="5">
+		<name>Bike</name>
+		<price_per_day>7</price_per_day>
+		<amount>6</amount>
+		<rent id = "24">
+			<date_from>2017-03-12</date_from>
+			<date_to xsi:nil="true"/>
+		</rent>
+		<rent id = "25">
+			<date_from>2017-03-13</date_from>
+			<date_to xsi:nil="true"/>
+		</rent>
+	</product>
+	<product id="6">
+		<name>Chess</name>
+		<price_per_day>2</price_per_day>
+		<amount>5</amount>
+		<rent id = "7">
+			<date_from>2017-02-07</date_from>
+			<date_to>2017-02-09</date_to>
+		</rent>
+		<rent id = "13">
+			<date_from>2017-03-01</date_from>
+			<date_to>2017-03-01</date_to>
+		</rent>
+	</product>
+	<product id="7">
+		<name>Flippers</name>
+		<price_per_day>2</price_per_day>
+		<amount>4</amount>
+		<rent id = "4">
+			<date_from>2016-10-19</date_from>
+			<date_to>2017-02-02</date_to>
+		</rent>
+		<rent id = "17">
+			<date_from>2017-03-02</date_from>
+			<date_to>2017-03-08</date_to>
+		</rent>
+		<rent id = "21">
+			<date_from>2017-03-09</date_from>
+			<date_to>2017-03-14</date_to>
+		</rent>
+	</product>
+	<product id="8">
+		<name>Surfboard</name>
+		<price_per_day>5</price_per_day>
+		<amount>5</amount>
+		<rent id = "19">
+			<date_from>2017-02-14</date_from>
+			<date_to xsi:nil="true"/>
+		</rent>
+		<rent id = "23">
+			<date_from>2017-03-02</date_from>
+			<date_to xsi:nil="true"/>
+		</rent>
+	</product>
+	<product id="9">
+		<name>Curling</name>
+		<price_per_day>10</price_per_day>
+		<amount>2</amount>
+		<rent id = "11">
+			<date_from>2017-03-01</date_from>
+			<date_to>2017-03-01</date_to>
+		</rent>
+		<rent id = "16">
+			<date_from>2017-03-07</date_from>
+			<date_to>2017-03-14</date_to>
+		</rent>
+	</product>
+	<product id="10">
+		<name>Sports simulator</name>
+		<price_per_day>15</price_per_day>
+		<amount>3</amount>
+		<rent id = "6">
+			<date_from>2016-03-17</date_from>
+			<date_to>2016-05-19</date_to>
+		</rent>
+		<rent id = "10">
+			<date_from>2017-01-11</date_from>
+			<date_to>2017-02-09</date_to>
+		</rent>
+		<rent id = "14">
+			<date_from>2017-03-01</date_from>
+			<date_to xsi:nil="true"/>
+		</rent>
+	</product>
+</pr:products>
