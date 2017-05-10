@@ -27,7 +27,7 @@ public class SaxParser extends DefaultHandler {
 	}
 
 	@Override
-	public void startDocument() throws SAXException {
+	public void startDocument() throws SAXException {// не нужные вещи для задачи не нужно писать)
 		System.out.println("Parsing started.");
 	}
 
